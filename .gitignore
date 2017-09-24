@@ -1,3 +1,9 @@
 # PhpStorm Directory
 .idea
+
+# Composer
 /vendor/
+
+# PHPUnit
+build
+
