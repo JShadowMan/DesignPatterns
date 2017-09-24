@@ -5,6 +5,10 @@ php:
   - '7.0'
   - '7.1'
 
+dist: trusty
+
+sudo: required
+
 before_script:
   - composer install --prefer-dist --dev --no-interaction
 
