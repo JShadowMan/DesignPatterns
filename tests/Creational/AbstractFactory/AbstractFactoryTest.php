@@ -8,7 +8,7 @@
  * @license   MIT License
  * @link      https://github.com/JShadowMan/DesignPatterns
  */
-namespace DesignPatternsTest;
+namespace DesignPatternsTest\Creational\AbstractFactory;
 
 use DesignPatterns\Creational\AbstractFactory\AbstractFactory;
 use DesignPatterns\Creational\AbstractFactory\Component\Json\JsonDict;
@@ -17,7 +17,6 @@ use DesignPatterns\Creational\AbstractFactory\Component\Xml\XmlDict;
 use DesignPatterns\Creational\AbstractFactory\Component\Xml\XmlList;
 use DesignPatterns\Creational\AbstractFactory\JsonFactory;
 use DesignPatterns\Creational\AbstractFactory\XmlFactory;
-use Prophecy\Exception\InvalidArgumentException;
 
 
 /**
