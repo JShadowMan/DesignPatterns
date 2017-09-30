@@ -91,7 +91,7 @@ class AbstractFactoryTest extends \PHPUnit_Framework_TestCase {
     /**
      * @param AbstractFactory $factory
      * @dataProvider getFactories
-     * @expectedException InvalidArgumentException
+     * @expectedException \InvalidArgumentException
      */
     final public function testInvalidDictComponent(AbstractFactory $factory) {
         $factory->create_dict(array('key1', 'key2'), array('val1'));
