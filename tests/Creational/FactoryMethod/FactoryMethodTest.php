@@ -13,7 +13,7 @@
 /**
  * Class FactoryMethodTest
  */
-class FactoryMethodTest extends \PHPUnit_Framework_TestCase {
+class FactoryMethodTest extends \PHPUnit\Framework\TestCase {
     /**
      * @var array
      */
@@ -52,9 +52,9 @@ class FactoryMethodTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals('mongo', $mongo->get_table_name());
     }
 
-
     /**
      * @dataProvider getFactories
+     * @param \DesignPatterns\Creational\FactoryMethod\FactoryMethodAbstract $factory
      */
     final public function testFactoryMethod(\DesignPatterns\Creational\FactoryMethod\FactoryMethodAbstract $factory) {
         $results = array();

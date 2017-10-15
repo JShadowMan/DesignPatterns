@@ -8,5 +8,6 @@
  * @license   MIT License
  * @link      https://github.com/JShadowMan/DesignPatterns
  */
+
 $loader = include __DIR__ . '/../vendor/autoload.php';
 $loader->addPsr4('DesignPatterns\\', array('src', 'tests/'));

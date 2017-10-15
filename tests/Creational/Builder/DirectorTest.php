@@ -21,7 +21,7 @@ use DesignPatterns\Creational\Builder\Product\VehicleProductAbstract;
 /**
  * Class DirectorTest
  */
-class DirectorTest extends \PHPUnit_Framework_TestCase {
+class DirectorTest extends \PHPUnit\Framework\TestCase {
     /**
      * @return array
      */

@@ -23,7 +23,7 @@ use DesignPatterns\Creational\AbstractFactory\XmlFactory;
  * Class AbstractFactoryTest
  * @package DesignPatterns
  */
-class AbstractFactoryTest extends \PHPUnit_Framework_TestCase {
+class AbstractFactoryTest extends \PHPUnit\Framework\TestCase {
     /**
      * @return array
      */
