@@ -22,7 +22,7 @@ class HumanPrototypeTest extends \PHPUnit\Framework\TestCase {
     final public function generateHuman(): array {
         return array(
             array( new MalePrototype('jack', 18) ),
-            array( new MalePrototype('lucy', 18) ),
+            array( new FemalePrototype('lucy', 18) ),
         );
     }
 
@@ -36,6 +36,7 @@ class HumanPrototypeTest extends \PHPUnit\Framework\TestCase {
         $clone_human = clone $human;
         $this->assertEquals($human->get_name(), $clone_human->get_name());
         $this->assertEquals($human->get_gender(), $clone_human->get_gender());
+        $this->assertEquals(18, $human->get_age());
         $this->assertEquals(0, $clone_human->get_age());
 
         $clone_human->set_name('clone human');
