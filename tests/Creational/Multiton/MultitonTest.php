@@ -8,7 +8,7 @@
  * @license   MIT License
  * @link      https://github.com/JShadowMan/here
  */
-namespace PHPDesignPatterns\Creational\Multiton;
+namespace DesignPatterns\Creational\Multiton;
 use \PHPUnit\Framework\TestCase;
 use DesignPatterns\Creational\Multiton\Multiton;
 

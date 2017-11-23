@@ -22,7 +22,7 @@ final class WidgetFactory {
      * @return WidgetInterface
      */
     final public static function factory(string $widget_name): WidgetInterface {
-        $class_name = sprintf('%s\Widget\%sWidget', __NAMESPACE__, $widget_name);
+        $class_name = sprintf('\%s\Widget\%sWidget', __NAMESPACE__, $widget_name);
         return new $class_name();
     }
 }
