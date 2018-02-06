@@ -11,6 +11,7 @@
 namespace DesignPatterns\Creational\StaticFactory\Widget;
 
 
+
 /**
  * Class JwtWidget
  * @package DesignPatterns\Creational\StaticFactory\Widget

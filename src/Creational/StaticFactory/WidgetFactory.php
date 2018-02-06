@@ -9,6 +9,7 @@
  * @link      https://github.com/JShadowMan/here
  */
 namespace DesignPatterns\Creational\StaticFactory;
+use DesignPatterns\Creational\StaticFactory\Widget\JwtWidget;
 use DesignPatterns\Creational\StaticFactory\Widget\WidgetInterface;
 
 
@@ -22,7 +23,9 @@ final class WidgetFactory {
      * @return WidgetInterface
      */
     final public static function factory(string $widget_name): WidgetInterface {
-        $class_name = sprintf('\%s\Widget\%sWidget', __NAMESPACE__, $widget_name);
-        return new $class_name();
+        switch ($widget_name) {
+            case 'jwt':
+                return new JwtWidget();
+        }
     }
 }
