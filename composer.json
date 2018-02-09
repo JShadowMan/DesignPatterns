@@ -1,6 +1,6 @@
 {
     "name": "shadowman/design-patterns",
-    "description": "design patterns by php",
+    "description": "design patterns by php language",
     "type": "project",
     "require": {
         "php": ">=7.1.0"
