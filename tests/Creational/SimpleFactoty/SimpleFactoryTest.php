@@ -9,13 +9,15 @@
  * @link      https://github.com/JShadowMan/here
  */
 namespace DesignPatterns\Creational\SimpleFactory;
+use \PHPUnit\Framework\TestCase;
+use \DesignPatterns\Creational\SimpleFactory\ConcreteDumper;
 
 
 /**
  * Class SimpleFactoryTest
  * @package DesignPatterns\Creational\SimpleFactory
  */
-final class SimpleFactoryTest extends \PHPUnit\Framework\TestCase {
+final class SimpleFactoryTest extends TestCase {
     /**
      * @var \DesignPatterns\Creational\SimpleFactory\ConcreteDumper
      */
@@ -25,7 +27,7 @@ final class SimpleFactoryTest extends \PHPUnit\Framework\TestCase {
      * setUp the test environment
      */
     final protected function setUp(): void {
-        $this->_manager = new \DesignPatterns\Creational\SimpleFactory\ConcreteDumper();
+        $this->_manager = new ConcreteDumper();
     }
 
     /**
@@ -40,7 +42,7 @@ final class SimpleFactoryTest extends \PHPUnit\Framework\TestCase {
 
     /**
      * @param $dumper_name
-     * @dataProvider dumper_provider
+     * @throws \Exception
      */
     final public function test_dump_array($dumper_name): void {
         $dumper = $this->_manager->create_dumper($dumper_name);

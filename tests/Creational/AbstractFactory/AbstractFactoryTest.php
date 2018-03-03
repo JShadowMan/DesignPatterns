@@ -17,13 +17,14 @@ use DesignPatterns\Creational\AbstractFactory\Component\Xml\XmlDict;
 use DesignPatterns\Creational\AbstractFactory\Component\Xml\XmlList;
 use DesignPatterns\Creational\AbstractFactory\JsonFactory;
 use DesignPatterns\Creational\AbstractFactory\XmlFactory;
+use \PHPUnit\Framework\TestCase;
 
 
 /**
  * Class AbstractFactoryTest
  * @package DesignPatterns
  */
-class AbstractFactoryTest extends \PHPUnit\Framework\TestCase {
+class AbstractFactoryTest extends TestCase {
     /**
      * @return array
      */

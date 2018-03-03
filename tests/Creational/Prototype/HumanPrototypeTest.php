@@ -9,13 +9,14 @@
  * @link      https://github.com/JShadowMan/here
  */
 namespace DesignPatterns\Creational\Prototype;
+use \PHPUnit\Framework\TestCase;
 
 
 /**
  * Class HumanPrototypeTest
  * @package DesignPatterns\Creational\Prototype
  */
-class HumanPrototypeTest extends \PHPUnit\Framework\TestCase {
+class HumanPrototypeTest extends TestCase {
     /**
      * @return array
      */

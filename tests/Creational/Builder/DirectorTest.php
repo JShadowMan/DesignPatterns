@@ -16,12 +16,13 @@ use DesignPatterns\Creational\Builder\Builder\V8TruckBuilder;
 use DesignPatterns\Creational\Builder\Component\ComponentAbstract;
 use DesignPatterns\Creational\Builder\Director;
 use DesignPatterns\Creational\Builder\Product\VehicleProductAbstract;
+use \PHPUnit\Framework\TestCase;
 
 
 /**
  * Class DirectorTest
  */
-class DirectorTest extends \PHPUnit\Framework\TestCase {
+class DirectorTest extends TestCase {
     /**
      * @return array
      */
