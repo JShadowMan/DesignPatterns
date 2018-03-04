@@ -10,7 +10,6 @@
  */
 namespace DesignPatterns\Creational\SimpleFactory;
 use \PHPUnit\Framework\TestCase;
-use \DesignPatterns\Creational\SimpleFactory\ConcreteDumper;
 
 
 /**
@@ -42,6 +41,7 @@ final class SimpleFactoryTest extends TestCase {
 
     /**
      * @param $dumper_name
+     * @dataProvider dumper_provider
      * @throws \Exception
      */
     final public function test_dump_array($dumper_name): void {
