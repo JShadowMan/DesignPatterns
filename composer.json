@@ -6,7 +6,7 @@
         "php": ">=7.1.0"
     },
     "require-dev": {
-        "satooshi/php-coveralls": "*",
+        "satooshi/php-coveralls": "^2.0.0",
         "phpunit/phpunit": "^6.3"
     },
     "autoload": {
