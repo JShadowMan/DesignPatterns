@@ -1,7 +1,12 @@
 DesignPatterns
 --------------
 
-Design patterns by PHP languages
+Design patterns by PHP languages.
+
+
+## Status
+
+Almost Completed.
 
 
 ## Build & Test
